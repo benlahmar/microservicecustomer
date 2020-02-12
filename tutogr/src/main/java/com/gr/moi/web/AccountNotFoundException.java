@@ -10,6 +10,6 @@ package com.gr.moi.web;
 public class AccountNotFoundException extends RuntimeException {
 
 	public AccountNotFoundException(Long id) {
-        super("Account id not found : " + id);
+        super("Account  not found : " + id);
     }
 }
